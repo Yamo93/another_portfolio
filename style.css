@@ -1,0 +1,576 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+
+font-family: 'Libre Baskerville', serif;
+*/
+
+main {
+    width: 100%;
+    height: 701px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
+
+main h1, main h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+main h2 {
+    margin-top: 140px;
+    margin-left: 10%;
+    font-size: 2rem;
+    color: #ff881d;
+}
+
+main h1 {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 3.5rem;
+}
+
+main h3 {
+    margin-top: 10px;
+    margin-left: 10%;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #ff881d;
+}
+
+main .border {
+    width: 10%;
+    border-top: 3px solid #fff;
+    margin: 25px 0px 20px 10%;
+}
+
+main p {
+    margin: 35px 10% 20px 10%;
+}
+
+main .ref-btn {
+    padding: 13px 21px;
+    background-color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 5%;
+    border-radius: 250px;
+    background-color: #ff881d;
+    border: 3px solid #ff881d;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+main .ref-btn:hover,
+main .ref-btn:active {
+    font-weight: 700;
+    border: 3px solid #ff881d;
+}
+
+main .con-btn {
+    padding: 13px 27px;
+    background-color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 20%;
+    border-radius: 250px;
+    background-color: #000;
+    border: 3px solid #ff881d;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+main .con-btn:hover,
+main .con-btn:active {
+    font-weight: 700;
+}
+
+.left-main {
+    float: left;
+    width: 50%;
+    height: 701px;
+}
+
+
+
+.right-main {
+    float: left;
+    width: 50%;
+    height: 701px;
+    background-image: url(img/pexels-photo-220067.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------------------------------------- ABOUT ME -------------------------------------------- */
+
+.about-me {
+    width: 100%;
+    height: 701px;
+    clear: both;
+}
+
+.about-me h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.border {
+    width: 10%;
+    border-top: 3px solid #ff881d;
+    margin: 25px auto 65px auto;
+}
+
+.about-me .brief {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.brief span {
+    font-weight: 700;
+    color: #ff881d;
+}
+
+.about-me .skills {
+    display: table;
+    width: 70%;
+    margin: 55px auto 35px auto;
+}
+
+.skills .row {
+    display: table-row;
+}
+
+.skills .left-skills {
+    display: table-cell;
+    padding-right: 5%;
+}
+
+.skills .right-skills {
+    display: table-cell;
+    padding-left: 5%;
+}
+
+.left-skills h3, .right-skills h3 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.left-skills .small-border,
+.right-skills .small-border {
+    width: 10%;
+    border-top: 3px solid #ff881d;
+    margin: 10px 0;
+}
+
+.left-skills .ref,
+.right-skills .ref {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    line-height: 150%;
+}
+
+.left-skills ul,
+.right-skills ul {
+    list-style: none;
+}
+
+.left-skills li,
+.right-skills li {
+    float: left;
+    margin: 8px;
+    padding: 4px;
+    background-color: #e5e5e5;
+    font-style: italic;
+}
+
+/* ----------------------------------- REFERENCES ------------------------------ */
+
+.references {
+    width: 100%;
+    height: 501px;
+    position: relative;
+}
+
+.references .top-sec {
+    width: 100%;
+    height: 350px;
+}
+
+.references .bott-sec {
+    width: 100%;
+    height: 450px;
+    background-color: #212121;
+    color: #fff;
+}
+
+.bott-sec h3 {
+    text-align: center;
+    font-size: 2rem;
+    width: 45%;
+    font-weight: 300;
+    line-height: 110%;
+    margin: 50px auto;
+    padding-top: 180px;
+}
+
+.references .center-box {
+    position: absolute;
+    width: 45%;
+    height: 230px;
+    top: 250px;
+    left: 27%;
+    background-color: #212121;
+    color: #fff;
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 8px #000;
+}
+
+.center-box .missions {
+    width: 49%;
+    float: left;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.center-box .experience {
+    width: 49%;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    float: left;
+    border-left: 1px solid rgba(129, 129, 129, 0.67);
+}
+
+.center-box h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.center-box h2 {
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    color: #ff881d;
+    text-transform: uppercase;
+}
+
+
+/* ------------------------------------ PORTFOLIO --------------------------------- */
+
+.portfolio {
+    width: 100%;
+    height: 1280px;
+    clear: both;
+    margin-top: 350px;
+    position: relative;
+}
+
+.portfolio .upper-p {
+    text-align: center;
+    padding-top: 90px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color: #ff881d;
+}
+
+.portfolio h1 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.portfolio .port-brief {
+    width: 60%;
+    font-size: 1.4rem;
+    margin: 5px auto 25px auto;
+}
+
+.portfolio .gray-p {
+    margin: 25px auto;
+    text-align: center;
+    color: rgba(56, 56, 56, 0.83);
+}
+
+.portfolio .ui-des:link,
+.portfolio .ui-des:visited {
+    padding: 15px 40px;
+    background-color: #ff881d;
+    margin-left: 36%;
+    margin-right: 5%;
+    margin-top: 25px;
+    border-radius: 250px;
+    position: absolute;
+    top: 420px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #cbcbcb;
+    border: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.portfolio .ui-des:hover,
+.portfolio .ui-des:active {
+    border: 3px solid #ff881d;
+    background-color: #fff;
+    color: #ff881d;
+}
+
+.portfolio .front-dev:link,
+.portfolio .front-dev:visited {
+    padding: 15px 40px;
+    background-color: #ff881d;
+    margin-top: 45px;
+    border-radius: 250px;
+    position: absolute;
+    top: 400px;
+    left: 52%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #cbcbcb;
+    border: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+.portfolio .front-dev:hover,
+.portfolio .front-dev:active {
+    border: 3px solid #ff881d;
+    background-color: #fff;
+    color: #ff881d;
+}
+
+.projects {
+    display: table;
+    width: 80%;
+    margin: 145px auto;
+}
+
+
+.projects .row {
+    display: table-row;
+}
+
+.left-pro, .right-pro {
+    display: table-cell;
+    padding: 40px;
+    border: 1px solid rgba(69, 69, 69, 0.47);
+}
+
+.top-row div:nth-child(1) {
+    border-right: none;
+    border-bottom: none;
+}
+
+.top-row div:nth-child(2) {
+    border-bottom: none;
+}
+
+.mid-row div:nth-child(1) {
+    border-right: none;
+    border-bottom: none;
+}
+
+.mid-row div:nth-child(2) {
+    border-bottom: none;
+}
+
+.left-pro h3, .right-pro h3 {
+    letter-spacing: 1px;
+}
+
+.left-pro h3 span, .right-pro h3 span {
+    color: rgba(92, 92, 92, 0.77);
+    font-weight: 300;
+}
+
+.left-pro p, .right-pro p {
+    margin-top: 15px;
+}
+
+/* ------------------------------------ CONTACT --------------------------------- */
+
+.contact {
+    background-image: url(img/pexels-photo-268533.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 761px;
+}
+
+.contact .top-p {
+    padding-top: 60px;
+    margin-bottom: 40px;
+    color: #ff881d;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact .brief-info {
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    margin: 20px auto;
+    margin-bottom: 70px;
+}
+
+.contact .email-btn:link,
+.contact .email-btn:visited {
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 250px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    color: #ff881d;
+    margin-left: 39%;
+    transition: all 0.3s;
+}
+
+.contact .email-btn:hover,
+.contact .email-btn:active {
+    background-color: #ff881d;
+    color: #fff;
+}
+
+.contact .bott-info {
+    text-align: center;
+    color: #ff881d;
+    margin-top: 50px;
+    width: 35%;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin: 50px auto 130px auto;
+}
+
+.contact footer {
+    background-color: #212121;
+    height: 140px;
+    margin-top: 220px;
+}
+
+footer .left-foot {
+    float: left;
+    width: 50%;
+}
+
+.left-foot .copyr {
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    margin-left: 25%;
+}
+
+.left-foot .author {
+    margin-top: 15px;
+    margin-left: 25%;
+    color: rgba(132, 132, 132, 0.58);
+}
+
+footer .right-foot {
+    float: left;
+    width: 50%;
+}
+
+.right-foot ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.right-foot li {
+    float: left;
+    padding: 30px;
+}
+
+.soc-btn:nth-child(1):link,
+.soc-btn:nth-child(1):visited {
+    font-size: 3rem;
+    color: #ff881d;
+}
+
+.soc-btn:nth-child(1):hover,
+.soc-btn:nth-child(1):active {
+    color: #3b5998;
+}
+
+.twitter:link,
+.twitter:visited {
+    font-size: 3rem;
+    color: #ff881d;
+}
+
+.twitter:hover,
+.twitter:active {
+    color: #55acee;
+}
+
+.lin:link,
+.lin:visited {
+    font-size: 3rem;
+    color: #ff881d;
+}
+
+.lin:hover,
+.lin:active {
+    color: #007bb5;
+}
+
+/*background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+
+
+.insta:link,
+.insta:visited {
+    font-size: 3rem;
+    color: #ff881d;
+}
+
+.insta:hover,
+.insta:active {
+    color: #d6249f;
+}
+
+.wrapper {
+    width: 100%;
+    height: 761px;
+    background-color: rgba(85, 46, 10, 0.57);
+    background-color: red;
+}
